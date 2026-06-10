@@ -1,7 +1,7 @@
 from flask import Flask, redirect, render_template_string
 import os
 
-app = Flask(name)
+app = Flask(__name__)
 
 REDIRECT_URL = 'https://t.me/+0wsZAVlDft80M2Q1'
 OG_TITLE = '진짜 중요합니다 주식장 큰일났어요'
